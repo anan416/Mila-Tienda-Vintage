@@ -115,6 +115,10 @@ footer{
     flex-direction: column;
 }
 
+.contenido1, .contenido0{
+    display:none;
+}
+
 @media(max-width:1083px){
     .res{
         display:inline;
