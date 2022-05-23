@@ -112,7 +112,7 @@ section p{
     cursor: auto;
 }
 
-.cambio{
+.cambio, .cambio1{
     width: 99.9%;
     height: 800px;
     cursor: auto;
@@ -173,7 +173,7 @@ button{
         margin-top: 0px;
         background-color: #989898;
     }
-    .cambio{
+    .cambio, .cambio1{
         height: 500px;
         cursor: auto;
     }
