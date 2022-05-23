@@ -1,4 +1,5 @@
 var imagen = document.querySelector(".cambio");
+var imagen1 = document.querySelector(".cambio1");
 
 function abrir1(){
     if (document.querySelector(".contenido1").style.display == "none"){
@@ -41,4 +42,12 @@ function imagen2(){
 
 function imagen3(){
     imagen.src = "../Imagenes/saconaturalm3.jpeg";
+}
+
+function imagen4(){
+    imagen1.src = "../Imagenes/collar.jpg";
+}
+
+function imagen5(){
+    imagen1.src = "../Imagenes/collar1.jpg";
 }
