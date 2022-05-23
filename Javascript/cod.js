@@ -23,11 +23,11 @@ function abrir0(){
 }
 
 function responsivo(){
-    if (document.querySelector(".responsive").style.display == "block"){
+    if (document.querySelector(".responsive").style.display == "flex"){
         document.querySelector(".responsive").style.display = "none";
     }
     else{
-        document.querySelector(".responsive").style.display = "block";
+        document.querySelector(".responsive").style.display = "flex";
     }
 }
 
