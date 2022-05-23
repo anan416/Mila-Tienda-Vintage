@@ -31,7 +31,6 @@ h1, .nocontent, p{
     margin-top: -84px;
     display:flex;
     justify-content: end;
-
 }
 
 .nocontent, p.titulo1, p.titulo0{
@@ -55,6 +54,11 @@ p.contenido1, p.contenido0{
 
 .responsive{
     display:none;
+    flex-direction: column;
+}
+
+.responsive a{
+    line-height: 4;
 }
 
 header{
@@ -122,6 +126,11 @@ footer{
     margin-top: auto;
 }
 
+.foot{
+    display:flex;
+    flex-direction: column;
+}
+
 footer a, footer p{
     text-decoration: none;
     color:#571E1E;
@@ -143,6 +152,16 @@ button{
     cursor:pointer;
 }
 
+.botones button{
+    color:#ffffff;
+    background-color:#ffffff;
+    border-color:#571E1E;
+}
+
+.botones button:hover{
+    background-color:#571E1E;
+}
+
 @media(max-width:1083px){
     .res{
         display:inline;
@@ -153,5 +172,9 @@ button{
     header{
         margin-top: 0px;
         background-color: #989898;
+    }
+    .cambio{
+        height: 500px;
+        cursor: auto;
     }
 }
